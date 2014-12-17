@@ -6,3 +6,4 @@ done
 git add -A
 git commit -m "backup"
 git push origin master
+echo $(date +"%H:%M:%S %d-%m-%Y") >> log
